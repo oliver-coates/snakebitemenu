@@ -1,0 +1,37 @@
+{
+  "ui": {
+    "language": "Language",
+    "menus": "Menus",
+    "jumpTo": "Jump to section",
+    "showPhoto": "Photo",
+    "hidePhoto": "Hide photo",
+    "contains": "Contains",
+    "dietaryKey": "Dietary key",
+    "currency": "Prices are in New Zealand dollars (NZD).",
+    "englishHint": "",
+    "loadError": "Sorry, the menu couldn't be loaded. Please ask our staff for a printed menu."
+  },
+  "dietary": {
+    "GF": "Gluten free",
+    "GFO": "Gluten-free option",
+    "DF": "Dairy free",
+    "DFO": "Dairy-free option",
+    "V": "Vegetarian",
+    "VO": "Vegetarian option"
+  },
+  "allergens": {
+    "milk": "milk",
+    "eggs": "eggs",
+    "wheat": "wheat",
+    "gluten": "gluten",
+    "soy": "soy",
+    "peanuts": "peanuts",
+    "tree-nuts": "tree nuts",
+    "sesame": "sesame",
+    "fish": "fish",
+    "crustacean": "crustacean shellfish",
+    "mollusc": "molluscs",
+    "lupin": "lupin",
+    "sulphites": "sulphites"
+  }
+}

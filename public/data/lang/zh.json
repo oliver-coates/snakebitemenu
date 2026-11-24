@@ -1,0 +1,186 @@
+{
+  "ui": {
+    "language": "语言",
+    "menus": "菜单",
+    "jumpTo": "跳转到分类",
+    "showPhoto": "图片",
+    "hidePhoto": "收起图片",
+    "contains": "含有",
+    "dietaryKey": "饮食标识",
+    "currency": "价格单位为新西兰元（NZD）。",
+    "englishHint": "每道菜下方的灰色小字为英文菜名，点餐时可向服务员出示。",
+    "loadError": "抱歉，菜单无法加载。请向服务员索取纸质菜单。"
+  },
+  "dietary": {
+    "GF": "无麸质",
+    "GFO": "可做无麸质",
+    "DF": "不含乳制品",
+    "DFO": "可做不含乳制品",
+    "V": "素食",
+    "VO": "可做素食"
+  },
+  "allergens": {
+    "milk": "牛奶",
+    "eggs": "鸡蛋",
+    "wheat": "小麦",
+    "gluten": "麸质",
+    "soy": "大豆",
+    "peanuts": "花生",
+    "tree-nuts": "坚果",
+    "sesame": "芝麻",
+    "fish": "鱼类",
+    "crustacean": "甲壳类海鲜",
+    "mollusc": "软体动物类海鲜",
+    "lupin": "羽扇豆",
+    "sulphites": "亚硫酸盐"
+  },
+  "labels": {
+    "Add streaky bacon": "加培根",
+    "Chicken": "鸡肉",
+    "Tofu": "豆腐",
+    "Prawn": "虾",
+    "Combo": "综合",
+    "Single NZ beef patty": "单层新西兰牛肉饼",
+    "Double NZ beef patty": "双层新西兰牛肉饼",
+    "Small": "小份",
+    "Large": "大杯",
+    "Regular": "标准杯",
+    "Pot for 1": "一人壶",
+    "Pot for 2": "两人壶"
+  },
+  "menus": {
+    "breakfast": {
+      "name": "早餐",
+      "hours": "每日 7:30 – 11:00",
+      "intro": "面包可选酸种面包、全麦面包或无麸质面包",
+      "notes": [
+        "所有食物可能含有牛奶、鸡蛋、小麦、大豆、花生、坚果、鱼类及甲壳类海鲜。"
+      ]
+    },
+    "dinner": {
+      "name": "晚餐",
+      "notes": [
+        "本店仅在炒饭中使用味精。",
+        "请注意，我们无法保证任何菜品完全不含坚果、麸质或贝类海鲜。",
+        "如需儿童菜单，请向服务员索取。"
+      ]
+    },
+    "drinks": {
+      "name": "饮品"
+    }
+  },
+  "categories": {
+    "breakfast": { "name": "早餐" },
+    "bagels": { "name": "贝果" },
+    "breakfast-sides": { "name": "配菜" },
+    "small-bites": { "name": "小食与下酒菜" },
+    "soup-kitchen": { "name": "汤面" },
+    "curries": { "name": "咖喱" },
+    "noodles-rice-wok": { "name": "面、饭与炒锅" },
+    "sizzling-plates": { "name": "铁板" },
+    "salad": { "name": "沙拉" },
+    "kiwi-kai": { "name": "新西兰风味", "note": "Kiwi Kai：Kai 是毛利语中“食物”的意思" },
+    "burgers": { "name": "汉堡" },
+    "dinner-sides": { "name": "推荐配菜" },
+    "sweet-tooth": { "name": "甜品" },
+    "coffee": { "name": "咖啡", "note": "外带 +0.50 · 加一份浓缩 +1.00" },
+    "tea": { "name": "茶", "note": "优质散装茶叶" },
+    "frappes-iced": { "name": "冰沙与冰饮" },
+    "smoothies": { "name": "果昔", "note": "供应至下午 3 点" }
+  },
+  "items": {
+    "toast-spreads": { "name": "吐司配抹酱", "description": "四片吐司，配三种抹酱" },
+    "steam-buns": { "name": "蒸包（2个）", "description": "松软蒸包，馅料可选叉烧猪肉或烧烤鸡肉" },
+    "pork-belly-fried-rice": { "name": "甜酱五花肉鸡蛋炒饭", "description": "红烧五花肉，配亚洲风味甜酱和中式炒饭" },
+    "eggs-on-toast": { "name": "鸡蛋吐司", "description": "煎蛋、水波蛋或炒蛋任选" },
+    "granola": { "name": "SnakeBite 杏仁椰子蔓越莓格兰诺拉麦片", "description": "配自制糖煮莓果、杏仁奶和 Raglan 椰子酸奶" },
+    "mince-on-toast": { "name": "肉末吐司", "description": "上面放一个煎蛋" },
+    "breakfast-dumplings": { "name": "饺子（8个）", "description": "配酱油和黑醋。馅料可选鸡肉蔬菜、猪肉虾仁或素馅" },
+    "big-b": { "name": "“大 B”全套早餐", "description": "培根、Kransky 芝士香肠、烤番茄、奶油蘑菇、薯饼、鸡蛋（做法任选）、番茄果酱和吐司" },
+    "coconut-french-toast": { "name": "椰子法式吐司", "description": "培根、香蕉、自制糖煮莓果，配香橙红糖马斯卡彭奶酪" },
+    "eggs-benedict": { "name": "班尼迪克蛋", "description": "两个水波蛋和菠菜，淋上荷兰酱。底可选英式松饼或薯饼，并任选一种配料：培根、热熏三文鱼、五花肉或牛油果" },
+    "keto-burrito": { "name": "生酮早餐卷饼", "description": "无麸质卷饼、三蛋芝士炒蛋、培根、牛油果、番茄莎莎酱、沙拉菜和是拉差荷兰酱" },
+    "pancit-canton": { "name": "鸡肉或豆腐 Pancit Canton 炒面", "description": "菲律宾风味炒面" },
+    "kids-breakfast": { "name": "儿童早餐", "description": "水果切片、两根迷你 Kransky 香肠、薯饼、炒蛋和吐司" },
+    "bacon-egg-bagel": { "name": "培根鸡蛋早餐贝果", "description": "培根、奶油奶酪、红洋葱、刺山柑、番茄和一个煎蛋" },
+    "salmon-bagel": { "name": "三文鱼贝果", "description": "烟熏三文鱼、奶油奶酪、红洋葱、新鲜番茄、莳萝、黄瓜、辣椒和炒蛋" },
+    "whopper-bagel": { "name": "豪华大贝果", "description": "培根、猪肉香肠饼、煎蛋、薯饼、番茄果酱和是拉差荷兰酱" },
+    "side-two-eggs": { "name": "两个鸡蛋", "description": "水波蛋、煎蛋或炒蛋" },
+    "side-bacon": { "name": "培根", "description": "两片" },
+    "side-kransky": { "name": "Kransky 香肠", "description": "一根" },
+    "side-hashbrown": { "name": "薯饼", "description": "两块" },
+    "side-tomato": { "name": "烤番茄" },
+    "side-mushroom": { "name": "帕玛森奶油蘑菇" },
+    "side-salmon": { "name": "冷熏或热熏三文鱼" },
+    "side-hollandaise": { "name": "荷兰酱" },
+    "side-avocado": { "name": "牛油果" },
+    "side-whipped-cream": { "name": "打发奶油" },
+    "side-berry-compote": { "name": "糖煮莓果" },
+    "side-yoghurt": { "name": "酸奶" },
+    "side-toast": { "name": "吐司", "description": "两片" },
+
+    "prawn-crackers": { "name": "香辣虾片" },
+    "dumplings": { "name": "饺子（8个）", "description": "鸡肉蔬菜、猪肉虾仁或素馅" },
+    "fresh-spring-rolls": { "name": "越南鲜春卷（4个）", "description": "米纸卷，内含香草、蔬菜，以及虾或豆腐，配花生酱" },
+    "sambal-wontons": { "name": "参巴辣酱馄饨（8个）", "description": "鸡肉生姜馅或猪肉韭菜馅" },
+    "tempura-squid": { "name": "天妇罗五香鱿鱼", "description": "配罗望子焦糖酱" },
+    "spring-rolls": { "name": "自制春卷", "description": "猪肉馅或素馅，配甜辣酱" },
+    "chicken-kebab": { "name": "姜黄鸡肉串（4串）", "description": "配烤花生沙爹酱" },
+    "hawker-rolls": { "name": "南洋小贩卷", "description": "印度煎饼（Roti）配腌黄瓜和洋葱、丘比蛋黄酱、烤椰丝和沙拉菜，可选香辣椰子鸡或椰香牛脸颊肉" },
+    "gua-bao": { "name": "台湾刈包", "description": "任选一种：香辣炸鸡配是拉差蛋黄酱和腌洋葱 · 甜酱五花肉配烤花生、腌洋葱和丘比蛋黄酱 · 韩式烧烤脆皮鸡配新鲜黄瓜、薄荷香菜沙拉 · 脆皮鸭配黄瓜、海鲜酱、葱和丘比蛋黄酱" },
+    "chicken-wings": { "name": "鸡翅（4只）", "description": "布法罗风味配蓝纹奶酪酱，或韩式烧烤风味（不含乳制品）" },
+
+    "duck-noodle": { "name": "鸭肉汤面", "description": "慢烤鸭肉、小白菜、米粉、炸蒜，配香浓鸭骨汤" },
+    "chicken-ginger-wonton": { "name": "鸡肉生姜馄饨汤面", "description": "鸡肉生姜馄饨、小白菜、胡萝卜、炸蒜和鸡蛋面，配鸡骨汤" },
+
+    "duck-red-curry": { "name": "菠萝鸭肉红咖喱", "description": "慢烤香料鸭肉、烤菠萝、红咖喱、椰浆" },
+    "panang-curry": { "name": "帕能咖喱", "description": "鸡肉或虾、青柠叶、椰浆、鸡蛋、炸红葱头和烤花生" },
+    "beef-rendang": { "name": "仁当牛脸颊肉", "description": "招牌菜：慢炖牛脸颊肉，红咖喱椰浆酱汁，配炸红葱头" },
+    "vegan-yellow-curry": { "name": "纯素黄咖喱", "description": "南瓜、四季豆、豆腐、菠菜、罗勒、烤腰果和椰浆" },
+
+    "pad-thai": { "name": "泰式炒河粉", "description": "甜罗望子酱、烤花生、绿豆芽" },
+    "pad-see-ew": { "name": "泰式酱油炒宽粉", "description": "中式风味宽米粉，配腌胡萝卜和黄瓜" },
+    "nasi-goreng": { "name": "印尼炒饭", "description": "红咖喱炒饭，配虾片和花生沙爹酱" },
+    "pork-belly-egg-noodles": { "name": "中式五花肉炒蛋面", "description": "五花肉、鸡蛋面、小白菜、胡萝卜，以炒酱翻炒" },
+    "chicken-cashew": { "name": "腰果鸡", "description": "天妇罗鸡肉、胡萝卜、洋葱、香菇和腰果，配茉莉香米饭" },
+    "chilli-garlic-prawns": { "name": "蒜蓉辣椒虾", "description": "虾配蒜蓉辣椒酱，附茉莉香米饭" },
+
+    "black-pepper-beef": { "name": "铁板黑椒牛肉", "description": "肉眼牛排配纽约黑胡椒，铁板上桌，附茉莉香米饭" },
+    "pork-belly-sisig": { "name": "铁板双煮五花肉 Sisig", "description": "菲律宾风味，铁板上桌，配煎蛋和茉莉香米饭" },
+
+    "thai-beef-salad": { "name": "泰式牛肉沙拉", "description": "牛肉薄片、黄瓜、番茄、香菜、薄荷、红洋葱、炸红葱头，配香辣酸甜酱汁" },
+    "caramel-pork-salad": { "name": "越南焦糖猪肉沙拉", "description": "红烧五花肉、黄瓜、薄荷、香菜、红洋葱、烤花生，配青柠鱼露酱汁" },
+    "tofu-salad": { "name": "甜辣豆腐沙拉", "description": "卤豆腐、黄瓜、番茄、香菜、薄荷、红洋葱、炸红葱头，配香辣酸甜酱汁" },
+
+    "pea-pie-pud": { "name": "新西兰肉派套餐", "description": "自制肉派任选：碎牛肉、牛排或鸡肉，配奶油土豆泥、豌豆和肉汁" },
+    "fish-and-chips": { "name": "炸鱼薯条", "description": "酥脆啤酒面糊炸鱼（Rig，新西兰本地鲨鱼，又称柠檬鱼），配薯条、沙拉和塔塔酱" },
+    "beef-nachos": { "name": "牛肉玉米片", "description": "玉米片配辣味牛肉酱、番茄莎莎酱、酸奶油和牛油果酱" },
+    "veggie-nachos": { "name": "素食玉米片", "description": "玉米片配素辣酱、番茄莎莎酱、酸奶油和牛油果酱" },
+    "bbq-ribs": { "name": "烧烤猪肋排", "description": "猪小排以烟熏烧烤酱腌制，配薯条和沙拉" },
+
+    "cheese-burger": { "name": "芝士汉堡", "description": "配炸洋葱、芝士、自制汉堡酱、酸黄瓜和生菜，附薯条。可应要求提供无麸质面包" },
+    "prawn-chicken-burger": { "name": "虾肉鸡肉汉堡", "description": "虾肉鸡肉饼、是拉差辣酱、蛋黄酱、黄瓜、香菜、薄荷、腌红洋葱、甜辣酱" },
+    "kfc-burger": { "name": "KFC 酥脆炸鸡汉堡", "description": "炸鸡、培根、菠萝、生菜、番茄、酸黄瓜、自制田园酱，布里欧修面包，附薯条" },
+    "vegan-burger": { "name": "纯素汉堡", "description": "烤纯素布里欧修面包、黑豆饼、纯素汉堡酱、酸黄瓜、红洋葱和生菜丝" },
+
+    "jasmine-rice": { "name": "茉莉香米饭" },
+    "roti": { "name": "印度煎饼（Roti）" },
+    "sambal": { "name": "Nino 印尼参巴辣酱" },
+    "kimchi": { "name": "韩式泡菜" },
+    "fries": { "name": "薯条", "labels": { "Small": "小份", "Large": "大份" } },
+
+    "sundae": { "name": "冰淇淋圣代", "description": "巧克力或香草冰淇淋，淋上太妃糖酱、巧克力酱或百香果酱" },
+    "fried-bananas": { "name": "香脆椰子炸香蕉", "description": "配太妃糖酱和冰淇淋" },
+    "mango-pudding": { "name": "芒果椰子布丁", "description": "配香草植物奶油" },
+    "leche-flan": { "name": "菲律宾焦糖布丁", "description": "浓郁顺滑的菲律宾蛋奶布丁，顶层是柔软焦糖，配新鲜时令水果" },
+
+    "coffee-black": { "name": "浓缩咖啡 · 长黑咖啡 · 美式咖啡 · 玛奇朵" },
+    "coffee-milk": { "name": "卡布奇诺 · 澳白 · 拿铁 · 热巧克力 · 摩卡奇诺 · 印度奶茶拿铁 · 抹茶拿铁" },
+    "syrups": { "name": "糖浆", "description": "焦糖、香草、榛子、奶油糖或海盐焦糖" },
+    "tea": { "name": "壶装茶", "description": "锡兰早餐茶、伯爵茶、绿茶、洋甘菊、薄荷茶、茉莉花茶，或蓝莓接骨木花苹果花果茶" },
+    "frappe": { "name": "冰沙", "description": "芒果、莓果、巧克力或浓缩咖啡口味" },
+    "iced-drinks": { "name": "冰饮", "description": "巧克力、摩卡、拿铁、印度奶茶或美式，配打发奶油" },
+    "passion-colada": { "name": "百香果可乐达", "description": "香蕉、椰浆、百香果、菠萝汁" },
+    "super-berry-smoothie": { "name": "超级莓果果昔", "description": "覆盆子、草莓、薄荷、蔓越莓汁" }
+  }
+}

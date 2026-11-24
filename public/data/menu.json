@@ -1,0 +1,1001 @@
+{
+  "menus": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "hours": "7.30am – 11am daily",
+      "intro": "Choose from sourdough, wholemeal or gluten-free bread",
+      "notes": [
+        "All food may contain milk, eggs, wheat, soy, peanuts, tree nuts, fish & crustacean shellfish."
+      ]
+    },
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "hours": "",
+      "intro": "",
+      "notes": [
+        "MSG is only used in our fried rice.",
+        "Please note we cannot guarantee any dish is completely free of nuts, gluten or shellfish.",
+        "A children's menu is available on request."
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "hours": "",
+      "intro": "",
+      "notes": []
+    }
+  ],
+
+  "categories": [
+    { "id": "breakfast",       "menu": "breakfast", "name": "Breakfast" },
+    { "id": "bagels",          "menu": "breakfast", "name": "Bagels" },
+    { "id": "breakfast-sides", "menu": "breakfast", "name": "Sides" },
+
+    { "id": "small-bites",     "menu": "dinner", "name": "Small Bites & Beer Snacks" },
+    { "id": "soup-kitchen",    "menu": "dinner", "name": "Soup Kitchen" },
+    { "id": "curries",         "menu": "dinner", "name": "Curries" },
+    { "id": "noodles-rice-wok","menu": "dinner", "name": "Noodles, Rice & Wok" },
+    { "id": "sizzling-plates", "menu": "dinner", "name": "Sizzling Plates" },
+    { "id": "salad",           "menu": "dinner", "name": "Salad" },
+    { "id": "kiwi-kai",        "menu": "dinner", "name": "Kiwi Kai", "note": "Kai is Māori for food" },
+    { "id": "burgers",         "menu": "dinner", "name": "Burgers" },
+    { "id": "dinner-sides",    "menu": "dinner", "name": "Suggested Sides" },
+    { "id": "sweet-tooth",     "menu": "dinner", "name": "Sweet Tooth" },
+
+    { "id": "coffee",          "menu": "drinks", "name": "Coffee", "note": "Takeaway +0.50 · Extra shot +1.00" },
+    { "id": "tea",             "menu": "drinks", "name": "Tea", "note": "Premium loose leaf tea" },
+    { "id": "frappes-iced",    "menu": "drinks", "name": "Frappés & Iced Drinks" },
+    { "id": "smoothies",       "menu": "drinks", "name": "Smoothies", "note": "Available until 3pm" }
+  ],
+
+  "items": [
+    {
+      "id": "toast-spreads",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Toast & Spreads",
+      "price": 11.00,
+      "description": "4 slices of toast with 3 spreads",
+      "dietary": ["GFO", "DFO", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "steam-buns",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Steam Buns (2 pc)",
+      "price": 12.00,
+      "description": "Soft steamed bread filled with BBQ pork or BBQ chicken",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "pork-belly-fried-rice",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Sticky Sweet Pork Belly & Egg Fried Rice",
+      "price": 28.00,
+      "description": "Braised pork belly, sticky sweet Asian sauce and Chinese-style fried rice",
+      "dietary": ["DF"],
+      "allergens": ["mollusc"],
+      "photo": ""
+    },
+    {
+      "id": "eggs-on-toast",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Eggs on Toast",
+      "price": 17.50,
+      "description": "Fried, poached or scrambled",
+      "extras": [
+        { "label": "Add streaky bacon", "price": 7.00 }
+      ],
+      "dietary": ["DFO", "GFO", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "granola",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "SnakeBite Almond, Coconut & Cranberry Granola",
+      "price": 23.00,
+      "description": "With house-made berry compote, almond milk & Raglan coconut yoghurt",
+      "dietary": ["DFO", "GFO", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "mince-on-toast",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Mince on Toast",
+      "price": 26.50,
+      "description": "Topped with a fried egg",
+      "dietary": ["DF", "GFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "breakfast-dumplings",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Dumplings (8 pc)",
+      "price": 19.00,
+      "description": "Served with soy sauce & black vinegar. Chicken & vegetable, pork & prawn, or vegetarian",
+      "dietary": ["DF", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "big-b",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "The Big 'B'",
+      "price": 31.00,
+      "description": "Streaky bacon, Kransky cheese sausage, grilled tomato, creamy mushrooms, hash brown, eggs any style, tomato jam & toast",
+      "dietary": ["GFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "coconut-french-toast",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Coconut French Toast",
+      "price": 26.00,
+      "description": "Bacon, banana, house-made berry compote & whipped orange & brown sugar mascarpone",
+      "dietary": ["DFO", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "eggs-benedict",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Eggs Benedict",
+      "price": 33.00,
+      "description": "Two poached eggs and wilted spinach, topped with hollandaise. Served on an English muffin or hash brown, with one of: streaky bacon, hot smoked salmon, pork belly or avocado",
+      "dietary": ["GFO", "DF", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "keto-burrito",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Keto Breakfast Burrito",
+      "price": 33.00,
+      "description": "GF wrap, 3-egg cheesy scramble, bacon, avocado, tomato salsa, salad greens & sriracha hollandaise",
+      "dietary": ["GF", "DFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "pancit-canton",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Chicken or Tofu Pancit Canton Noodles",
+      "price": 26.00,
+      "description": "Filipino stir-fry noodles",
+      "dietary": ["GFO", "VO", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "kids-breakfast",
+      "menu": "breakfast",
+      "category": "breakfast",
+      "name": "Kids Breakfast",
+      "price": 16.00,
+      "description": "Sliced fruit, 2 mini Kransky sausages, hash brown, scrambled egg & toast",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "bacon-egg-bagel",
+      "menu": "breakfast",
+      "category": "bagels",
+      "name": "Bacon & Egg Breakfast Bagel",
+      "price": 27.00,
+      "description": "Bacon, cream cheese, red onion, capers, tomato & a fried egg",
+      "dietary": ["GFO", "DFO", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "salmon-bagel",
+      "menu": "breakfast",
+      "category": "bagels",
+      "name": "Salmon Bagel",
+      "price": 28.00,
+      "description": "Smoked salmon, cream cheese, red onion, fresh tomato, dill, cucumber, chilli & scrambled eggs",
+      "dietary": ["GFO", "DFO", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "whopper-bagel",
+      "menu": "breakfast",
+      "category": "bagels",
+      "name": "Whopper Bagel",
+      "price": 28.00,
+      "description": "Streaky bacon, pork sausage pattie, fried egg, hash brown, tomato jam & sriracha hollandaise",
+      "dietary": ["GFO", "DFO", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "side-two-eggs",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Two Eggs",
+      "price": 8.50,
+      "description": "Poached, fried or scrambled",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-bacon",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Streaky Bacon",
+      "price": 8.00,
+      "description": "Two pieces",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-kransky",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Kransky Sausage",
+      "price": 8.00,
+      "description": "One piece",
+      "dietary": ["GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-hashbrown",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Hash Brown",
+      "price": 8.00,
+      "description": "Two pieces",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-tomato",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Grilled Tomato",
+      "price": 8.00,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-mushroom",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Creamy Parmesan Mushroom",
+      "price": 8.00,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-salmon",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Cold or Hot Smoked Salmon",
+      "price": 12.00,
+      "description": "",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-hollandaise",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Hollandaise Sauce",
+      "price": 7.00,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-avocado",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Avocado",
+      "price": 7.50,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-whipped-cream",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Whipped Cream",
+      "price": 5.50,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-berry-compote",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Berry Compote",
+      "price": 7.50,
+      "description": "",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-yoghurt",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Yoghurt",
+      "price": 7.50,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "side-toast",
+      "menu": "breakfast",
+      "category": "breakfast-sides",
+      "name": "Side of Toast",
+      "price": 8.00,
+      "description": "Two slices",
+      "dietary": ["GFO", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "prawn-crackers",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Spicy Prawn Crackers",
+      "price": 9.00,
+      "description": "",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "dumplings",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Dumplings (8 pc)",
+      "price": 19.00,
+      "description": "Chicken & vegetable, pork & prawn, or vegetarian",
+      "dietary": ["DF", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "fresh-spring-rolls",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Vietnamese Fresh Spring Rolls (4 pc)",
+      "price": 16.00,
+      "description": "Rice-paper rolls with herbs, veggies, prawn or tofu, with peanut sauce",
+      "dietary": ["GF", "DF", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "sambal-wontons",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Spicy Sambal Wontons (8 pc)",
+      "price": 19.00,
+      "description": "Chicken & ginger or pork & chives",
+      "dietary": ["DF"],
+      "allergens": ["fish"],
+      "photo": ""
+    },
+    {
+      "id": "tempura-squid",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Tempura 5 Spice Squid",
+      "price": 23.00,
+      "description": "Tamarind caramel",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "spring-rolls",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "House-made Spring Rolls",
+      "price": 18.00,
+      "description": "Pork or vegetarian, with sweet chilli",
+      "dietary": ["DF", "VO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "chicken-kebab",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Turmeric Chicken Kebab (4 pc)",
+      "price": 20.50,
+      "description": "With roasted peanut satay sauce",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "hawker-rolls",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Hawker Rolls",
+      "price": 26.00,
+      "description": "Roti topped with pickled cucumber & onion, Kewpie mayo, toasted coconut & salad greens, with a choice of spicy coconut chicken or coconut beef cheek",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "gua-bao",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Taiwanese Gua Bao",
+      "price": 28.00,
+      "description": "Choice of: spicy fried chicken with sriracha mayo & pickled onions · sticky sweet glazed pork belly with roasted peanuts, pickled onions & Kewpie mayo · Korean BBQ crispy chicken with fresh cucumber, mint & coriander salad · crispy duck with cucumber, hoisin sauce, spring onion & Kewpie mayo",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "chicken-wings",
+      "menu": "dinner",
+      "category": "small-bites",
+      "name": "Chicken Wings (4)",
+      "price": 25.00,
+      "description": "Buffalo, served with a blue cheese sauce, or Korean BBQ (DF)",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "duck-noodle",
+      "menu": "dinner",
+      "category": "soup-kitchen",
+      "name": "Duck Noodle",
+      "price": 36.00,
+      "description": "Slow-roasted duck, bok choy, rice noodles, fried garlic, aromatic duck bone broth",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "chicken-ginger-wonton",
+      "menu": "dinner",
+      "category": "soup-kitchen",
+      "name": "Chicken & Ginger Wonton",
+      "price": 34.00,
+      "description": "Chicken & ginger wontons, bok choy, carrots, fried garlic & egg noodles in a chicken bone broth",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "duck-red-curry",
+      "menu": "dinner",
+      "category": "curries",
+      "name": "Duck & Pineapple Red Curry",
+      "price": 36.50,
+      "description": "Slow-roasted aromatic duck, grilled pineapple, red curry, coconut cream",
+      "dietary": ["DF", "GF"],
+      "allergens": ["crustacean"],
+      "photo": ""
+    },
+    {
+      "id": "panang-curry",
+      "menu": "dinner",
+      "category": "curries",
+      "name": "Panang Curry",
+      "price": 39.50,
+      "description": "Chicken or prawn, kaffir lime, coconut cream, egg, fried shallots & roasted peanut",
+      "dietary": ["DF", "GF"],
+      "allergens": ["crustacean"],
+      "photo": ""
+    },
+    {
+      "id": "beef-rendang",
+      "menu": "dinner",
+      "category": "curries",
+      "name": "Beef Cheek Rendang",
+      "price": 41.50,
+      "description": "Signature dish – slow-cooked beef cheek in a red curry & coconut sauce, fried shallots",
+      "dietary": ["DF", "GF"],
+      "allergens": ["crustacean"],
+      "photo": ""
+    },
+    {
+      "id": "vegan-yellow-curry",
+      "menu": "dinner",
+      "category": "curries",
+      "name": "Vegan Yellow Curry",
+      "price": 36.50,
+      "description": "Pumpkin, green beans, tofu, spinach, basil, roasted cashew & coconut cream",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "pad-thai",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Pad Thai Rice Noodles",
+      "prices": [
+        { "label": "Chicken", "price": 33.50 },
+        { "label": "Tofu", "price": 33.50 },
+        { "label": "Prawn", "price": 35.50 },
+        { "label": "Combo", "price": 39.50 }
+      ],
+      "description": "Sweet tamarind sauce, roasted peanuts, mung beans",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "pad-see-ew",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Pad See Ew",
+      "prices": [
+        { "label": "Chicken", "price": 33.50 },
+        { "label": "Tofu", "price": 33.50 },
+        { "label": "Prawn", "price": 35.50 },
+        { "label": "Combo", "price": 39.50 }
+      ],
+      "description": "Chinese-inspired large rice noodles, pickled carrot & cucumber",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "nasi-goreng",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Indonesian Nasi Goreng",
+      "prices": [
+        { "label": "Chicken", "price": 33.50 },
+        { "label": "Prawn", "price": 35.50 }
+      ],
+      "description": "Red curry fried rice, served with prawn crackers & peanut satay",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "pork-belly-egg-noodles",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Chinese Pork Belly Egg Noodles",
+      "price": 37.50,
+      "description": "Pork belly, egg noodles, bok choy, carrot in a stir-fry sauce",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "chicken-cashew",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Chicken Cashew",
+      "price": 37.50,
+      "description": "Tempura chicken, carrot, onion, shiitake mushrooms & cashew nuts with a side of steamed jasmine rice",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "chilli-garlic-prawns",
+      "menu": "dinner",
+      "category": "noodles-rice-wok",
+      "name": "Chilli Garlic Prawns",
+      "price": 37.50,
+      "description": "Prawns in chilli garlic sauce, served with jasmine rice",
+      "dietary": ["GF", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "black-pepper-beef",
+      "menu": "dinner",
+      "category": "sizzling-plates",
+      "name": "Sizzling Black Pepper Beef",
+      "price": 42.00,
+      "description": "Rib eye steak with New York black pepper on a sizzling plate, with a side of steamed jasmine rice",
+      "dietary": ["GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "pork-belly-sisig",
+      "menu": "dinner",
+      "category": "sizzling-plates",
+      "name": "Sizzling Twice-Cooked Pork Belly Sisig",
+      "price": 38.50,
+      "description": "Served on a sizzling plate with a fried egg, with a side of steamed jasmine rice",
+      "dietary": ["DF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "thai-beef-salad",
+      "menu": "dinner",
+      "category": "salad",
+      "name": "Thai Beef Salad",
+      "price": 36.00,
+      "description": "Thin-sliced beef, cucumber, tomato, coriander, mint, red onion, fried shallots & spicy sweet-sour dressing",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "caramel-pork-salad",
+      "menu": "dinner",
+      "category": "salad",
+      "name": "Vietnamese Caramel Pork Salad",
+      "price": 36.00,
+      "description": "Braised pork belly, cucumber, mint, coriander, red onions, roasted peanuts, lime & fish sauce dressing",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "tofu-salad",
+      "menu": "dinner",
+      "category": "salad",
+      "name": "Tofu Sweet Chilli Salad",
+      "price": 36.00,
+      "description": "Braised tofu, cucumber, tomato, coriander, mint, red onion, fried shallots & spicy sweet-sour dressing",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "pea-pie-pud",
+      "menu": "dinner",
+      "category": "kiwi-kai",
+      "name": "Pea, Pie & Pud",
+      "price": 22.00,
+      "description": "Choice of any of our home-made mince, steak or chicken pies, served with creamy mashed potato, peas & brown gravy",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "fish-and-chips",
+      "menu": "dinner",
+      "category": "kiwi-kai",
+      "name": "Fish & Chips",
+      "price": 37.50,
+      "description": "Crispy beer-battered rig, fries, side salad & tartare sauce",
+      "dietary": ["GFO", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "beef-nachos",
+      "menu": "dinner",
+      "category": "kiwi-kai",
+      "name": "Beef Nachos",
+      "price": 33.00,
+      "description": "Tortilla chips topped with beef chilli, tomato salsa, sour cream & guacamole",
+      "dietary": ["GFO", "DFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "veggie-nachos",
+      "menu": "dinner",
+      "category": "kiwi-kai",
+      "name": "Veggie Nachos",
+      "price": 30.00,
+      "description": "Tortilla chips topped with veggie chilli, tomato salsa, sour cream & guacamole",
+      "dietary": ["V", "GFO", "DFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "bbq-ribs",
+      "menu": "dinner",
+      "category": "kiwi-kai",
+      "name": "BBQ Ribs",
+      "price": 41.50,
+      "description": "Baby back pork ribs marinated in a smoky BBQ sauce, with fries & salad",
+      "dietary": ["DF", "GF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "cheese-burger",
+      "menu": "dinner",
+      "category": "burgers",
+      "name": "Cheese Burger",
+      "prices": [
+        { "label": "Single NZ beef patty", "price": 29.50 },
+        { "label": "Double NZ beef patty", "price": 31.50 }
+      ],
+      "description": "With fried onion, cheese, house-made burger sauce, pickles & lettuce, served with fries. GF buns available on request",
+      "dietary": ["GFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "prawn-chicken-burger",
+      "menu": "dinner",
+      "category": "burgers",
+      "name": "Prawn and Chicken Burger",
+      "price": 36.00,
+      "description": "Prawn and chicken pattie, sriracha, mayo, cucumber, coriander, mint, pickled red onion, sweet chilli",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "kfc-burger",
+      "menu": "dinner",
+      "category": "burgers",
+      "name": "KFC – Krunchy Fried Chicken",
+      "price": 32.50,
+      "description": "Fried chicken, streaky bacon, pineapple, lettuce, tomato, gherkin, homemade ranch in a brioche bun, served with fries",
+      "dietary": ["DF", "GFO"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "vegan-burger",
+      "menu": "dinner",
+      "category": "burgers",
+      "name": "Vegan Burger",
+      "price": 31.50,
+      "description": "Toasted vegan brioche bun, black bean patty, vegan burger sauce, pickles, red onion & shredded lettuce",
+      "dietary": ["V", "DF"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "jasmine-rice",
+      "menu": "dinner",
+      "category": "dinner-sides",
+      "name": "Steamed Jasmine Rice",
+      "price": 7.50,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "roti",
+      "menu": "dinner",
+      "category": "dinner-sides",
+      "name": "Roti",
+      "price": 9.50,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "sambal",
+      "menu": "dinner",
+      "category": "dinner-sides",
+      "name": "Nino's Indonesian Sambal",
+      "price": 5.00,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "kimchi",
+      "menu": "dinner",
+      "category": "dinner-sides",
+      "name": "Kimchi",
+      "price": 18.00,
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "fries",
+      "menu": "dinner",
+      "category": "dinner-sides",
+      "name": "Fries",
+      "prices": [
+        { "label": "Small", "price": 9.00 },
+        { "label": "Large", "price": 14.00 }
+      ],
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "sundae",
+      "menu": "dinner",
+      "category": "sweet-tooth",
+      "name": "Ice Cream Sundae",
+      "price": 15.00,
+      "description": "Chocolate or vanilla ice cream topped with toffee, chocolate or passionfruit sauce",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "fried-bananas",
+      "menu": "dinner",
+      "category": "sweet-tooth",
+      "name": "Crispy Coconut Fried Bananas",
+      "price": 18.00,
+      "description": "With toffee sauce & ice cream",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "mango-pudding",
+      "menu": "dinner",
+      "category": "sweet-tooth",
+      "name": "Mango Coconut Pudding",
+      "price": 18.00,
+      "description": "With vanilla plant-based whipped cream",
+      "dietary": ["DF", "GF", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "leche-flan",
+      "menu": "dinner",
+      "category": "sweet-tooth",
+      "name": "Leche Flan",
+      "price": 18.00,
+      "description": "A rich, creamy Filipino custard dessert with a layer of soft caramel on top & fresh seasonal fruit",
+      "dietary": ["GF", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+
+    {
+      "id": "coffee-black",
+      "menu": "drinks",
+      "category": "coffee",
+      "name": "Espresso · Long Black · Americano · Macchiato",
+      "prices": [
+        { "label": "Regular", "price": 6.50 }
+      ],
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "coffee-milk",
+      "menu": "drinks",
+      "category": "coffee",
+      "name": "Cappuccino · Flat White · Latte · Hot Chocolate · Mochaccino · Chai Latte · Matcha Latte",
+      "prices": [
+        { "label": "Regular", "price": 7.00 },
+        { "label": "Large", "price": 7.50 }
+      ],
+      "description": "",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "syrups",
+      "menu": "drinks",
+      "category": "coffee",
+      "name": "Syrup",
+      "price": 0.80,
+      "description": "Caramel, vanilla, hazelnut, butterscotch or salted caramel",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "tea",
+      "menu": "drinks",
+      "category": "tea",
+      "name": "Pot of Tea",
+      "prices": [
+        { "label": "Pot for 1", "price": 5.50 },
+        { "label": "Pot for 2", "price": 6.50 }
+      ],
+      "description": "Ceylon breakfast, Earl Grey, green, chamomile, peppermint, jasmine, or blueberry, elderflower & apple infusion",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "frappe",
+      "menu": "drinks",
+      "category": "frappes-iced",
+      "name": "Frappé",
+      "price": 9.50,
+      "description": "Mango, berry, chocolate or espresso",
+      "dietary": ["DF", "GF", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "iced-drinks",
+      "menu": "drinks",
+      "category": "frappes-iced",
+      "name": "Iced Drinks",
+      "price": 9.50,
+      "description": "Chocolate, mocha, latte, chai or americano, with whipped cream",
+      "dietary": ["DFO", "GFO", "V"],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "passion-colada",
+      "menu": "drinks",
+      "category": "smoothies",
+      "name": "Passion Colada",
+      "price": 13.00,
+      "description": "Banana, coconut cream, passionfruit, pineapple juice",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    },
+    {
+      "id": "super-berry-smoothie",
+      "menu": "drinks",
+      "category": "smoothies",
+      "name": "Super Berry Smoothie",
+      "price": 13.00,
+      "description": "Raspberries, strawberries, mint, cranberry juice",
+      "dietary": [],
+      "allergens": [],
+      "photo": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "timezone": "Pacific/Auckland",
+  "schedule": [
+    { "menu": "breakfast", "from": "06:00", "to": "11:30" },
+    { "menu": "dinner",    "from": "11:30", "to": "21:00" }
+  ],
+  "fallbackMenu": "dinner",
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "name": "English" },
+    { "code": "zh", "name": "中文" }
+  ]
+}
